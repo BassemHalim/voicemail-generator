@@ -1,3 +1,5 @@
 .env
 sample/** 
 **/*.wav
+node_modules
+dist
