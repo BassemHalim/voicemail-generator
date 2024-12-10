@@ -16,14 +16,8 @@ class VoiceController {
                     error: "Message should be shorter than 500 characters",
                 });
             }
-            const result = {
-                id: "123-456",
-                output: {
-                    status: "RUNNING",
-                    url: undefined,
-                },
-            };
-            // const result = await voiceService.generateVoice(message);
+
+            const result = await voiceService.generateVoice(message);
             res.json(result);
         } catch (error) {
             if (error instanceof Error)
