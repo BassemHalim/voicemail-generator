@@ -18,6 +18,13 @@ class VoiceController {
             }
 
             const result = await voiceService.generateVoice(message);
+            // const result = {
+            //     id: "36c60bd3-bf62-4438-8814-65f3c9634e0a",
+            //     output: {
+            //         status: "IN_PROGRESS",
+            //         url: undefined,
+            //     },
+            // };
             res.json(result);
         } catch (error) {
             if (error instanceof Error)

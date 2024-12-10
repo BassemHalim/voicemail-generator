@@ -20,7 +20,7 @@ const config: Config = {
     port: parseInt(process.env.PORT || "3000"),
     voiceModel: "Play3.0-mini",
     voicePath:
-        "s3://voice-cloning-zero-shot/1bbc6986-fadf-4bd8-98aa-b86fed0476e9/original/manifest.json",
+        "s3://voice-cloning-zero-shot/e040bd1b-f190-4bdb-83f0-75ef85b18f84/original/manifest.json",
     apiBaseUrl: "https://api.play.ai/api/v1",
     outputDir: "samples",
 };
