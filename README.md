@@ -2,6 +2,8 @@
 
 This is a demo project that showcases the integration of AI text-to-speech technology for generating professional voicemail greetings. Simply type your desired greeting message, and the service converts it into a natural-sounding voice recording.
 
+<img src="https://github.com/BassemHalim/voicemail-generator/blob/master/client.png?raw=true" width="500"  alt="client screenshot"/>
+
 ## Overview
 
 This project consists of two main components:
